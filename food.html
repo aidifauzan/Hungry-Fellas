@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Hungry Fellas</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="framework/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link href="main.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="framework/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+    <script src = "jquery-ui-1.10.4/js/jquery-1.10.2.js"></script>
+	<script src = "jquery-ui-1.10.4/js/jquery-ui-1.10.4.js"></script>
+
+    
+    <!-- jQuery -->
+    <script src="framework/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="framework/js/bootstrap.min.js"></script>
+
+    <!-- main.js -->
+    <script src="main.js"> </script>
+
+	
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top stillnav" role="navigation" >
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                	<img src="images/HF.png" width="150" height="150" class="logo" style="margin-Top:-33px">
+                </a>
+                <!-- <a class="navbar-brand" href="index.html">Order First</a> -->
+            </div>
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                	<li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <br>
+                        <a href="about.html" class="menutext"><b>About Us</b></a>
+                    </li>
+                    <li class="page-scroll">
+                        <br>
+                        <a href="contact.html" class="menutext"><b>Contact / Help</b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <br>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Service Panels -->
+        <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+        <form id='myform' method='POST' action='orderdetail2.html'>
+        <div class="row startcontent">
+            <div class="col-lg-12">
+                <h2 class="page-header">M E N U</h2>
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default text-center newfoodcolumn">
+                    <a href="food.html">
+                        <img class="img-responsive img-hover" src="images/pizza.png" alt="">
+                    </a>
+                    <div class="panel-body">
+                        <h3 id="food5">Tandoori Chicken</h3>
+                        <p>Seasoned chicken, red onion on a BBQ sauce base.</p>
+                        <h4 id="price5">$5.70</h4>
+                        <input type='button' value='-' class='qtyminus' field='quantity4' />
+					    <input type='text' name='quantity4' value='0' class='qty' />
+					    <input type='button' value='+' class='qtyplus' field='quantity4' />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default text-center newfoodcolumn">
+                    <a href="food.html">
+                        <img class="img-responsive img-hover" src="images/pizza.png" alt="">
+                    </a>
+                    <div class="panel-body">
+                        <h3 id="food6">Peri Peri Chicken</h3>
+                        <p>Seasoned chicken, red onion on a BBQ sauce base.</p>
+                        <h4 id="price6">$5.70</h4>
+                        <input type='button' value='-' class='qtyminus' field='quantity5' />
+					    <input type='text' name='quantity5' value='0' class='qty' />
+					    <input type='button' value='+' class='qtyplus' field='quantity5' />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default text-center newfoodcolumn">
+                    <a href="food.html">
+                        <img class="img-responsive img-hover" src="images/pizza.png" alt="">
+                    </a>
+                    <div class="panel-body">
+                        <h3 id="food7">Peri Peri Beef</h3>
+                        <p>Seasoned chicken, red onion on a BBQ sauce base.</p>
+                        <h4 id="price7">$5.70</h4>
+                        <input type='button' value='-' class='qtyminus' field='quantity6' />
+					    <input type='text' name='quantity6' value='0' class='qty' />
+					    <input type='button' value='+' class='qtyplus' field='quantity6' />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default text-center newfoodcolumn">
+                    <a href="food.html">
+                        <img class="img-responsive img-hover" src="images/pizza.png" alt="">
+                    </a>
+                    <div class="panel-body">
+                        <h3 id="food8">Garlic Prawn</h3>
+                        <p>Seasoned chicken, red onion on a BBQ sauce base.</p>
+                        <h4 id="price8">$5.70</h4>
+                        <input type='button' value='-' class='qtyminus' field='quantity7' />
+					    <input type='text' name='quantity7' value='0' class='qty' />
+					    <input type='button' value='+' class='qtyplus' field='quantity7' />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default text-center newfoodcolumn">
+                    <a href="food.html">
+                        <img class="img-responsive img-hover" src="images/pizza2.png" alt="">
+                    </a>
+                    <div class="panel-body">
+                        <h3 id="food9">Prawn Bacon & Feta</h3>
+                        <p>Prawns, rasher bacon, feta, capsicum, fresh tomato.</p>
+                        <h4 id="price9">$5.70</h4>
+                        <input type='button' value='-' class='qtyminus' field='quantity8' />
+					    <input type='text' name='quantity8' value='0' class='qty' />
+					    <input type='button' value='+' class='qtyplus' field='quantity8' />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default text-center newfoodcolumn">
+                    <a href="food.html">
+                        <img class="img-responsive img-hover" src="images/pizza.png" alt="">
+                    </a>
+                    <div class="panel-body">
+                        <h3 id="food10">BBQ Chicken Pizza</h3>
+                        <p>Seasoned chicken, red onion on a BBQ sauce base.</p>
+                        <h4 id="price10">$10</h4>
+                        <input type='button' value='-' class='qtyminus' field='quantity9' />
+					    <input type='text' name='quantity9' value='0' class='qty' />
+					    <input type='button' value='+' class='qtyplus' field='quantity9' />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default text-center newfoodcolumn">
+                    <a href="food.html">
+                        <img class="img-responsive img-hover" src="images/chicken.png" alt="">
+                    </a>
+                    <div class="panel-body">
+                        <h3 id="food11">Spicy Chicken Bites</h3>
+                        <p>20 pieces of 100% chicken breast. Served with ranch sauce.</p>
+                        <h4 id="price11">$8</h4>
+                        <input type='button' value='-' class='qtyminus' field='quantity10' />
+					    <input type='text' name='quantity10' value='0' class='qty' />
+					    <input type='button' value='+' class='qtyplus' field='quantity10' />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default text-center newfoodcolumn">
+                    <a href="food.html">
+                        <img class="img-responsive img-hover" src="images/coke.png" alt="">
+                    </a>
+                    <div class="panel-body">
+                        <h3 id="food12">Coke</h3>
+                        <p>Diet Coke.</p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h4 id="price12">$3</h4>
+                        <input type='button' value='-' class='qtyminus' field='quantity11' />
+					    <input type='text' name='quantity11' value='0' class='qty' />
+					    <input type='button' value='+' class='qtyplus' field='quantity11' />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+	        <input type="submit" value="Confirm" class="btn btn-primary submit">
+        </div>
+		</form>
+
+
+
+        <hr>
+        
+        <div class="row">
+		    <div class="col-sm-6" >
+		    	<div class="col-lg-12">
+                	<h2 class="page-header">OPENING HOURS</h2>
+				</div>
+				<h4>Monday-Friday: 08.00 - 15.00</h4>
+				<h4>Saturday: 09.00 - 14.00</h4>
+				<h4>Sunday/Public Holiday: Closed</h4>
+		    </div>
+		    <div class="col-sm-6" >
+		    	<div class="col-lg-12">
+                	<h2 class="page-header">RESTAURANT POLICY</h2>
+                	<h4>
+                	Every food in the restaurant will be assumed made by the tools that made food with dairy and nuts product in it.
+                	Restaurant won't be responsible if any of customer had special alergic condition and choose to ignore the warning.	
+                	</h4>
+				</div>
+		    </div>
+		</div>
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <p class = "copyright">Copyright &copy; Hungry Fellas 2016</p>
+                <p class="text-center"><a href = "privacypolicy.html">Privacy policy </a> || <a href = "termsofservice.html">Terms of Service </a> || <a href = "disclaimer.html">Disclaimer</a></p>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+		    // This button will increment the value
+		    $('.qtyplus').click(function(e){
+		        // Stop acting like a button
+		        e.preventDefault();
+		        // Get the field name
+		        fieldName = $(this).attr('field');
+		        // Get its current value
+		        var currentVal = parseInt($('input[name='+fieldName+']').val());
+		        // If is not undefined
+		        if (!isNaN(currentVal)) {
+		            // Increment
+		            $('input[name='+fieldName+']').val(currentVal + 1);
+		        } else {
+		            // Otherwise put a 0 there
+		            $('input[name='+fieldName+']').val(0);
+		        }
+		        console.log(currentVal);
+		    });
+		    // This button will decrement the value till 0
+		    $(".qtyminus").click(function(e) {
+		        // Stop acting like a button
+		        e.preventDefault();
+		        // Get the field name
+		        fieldName = $(this).attr('field');
+		        // Get its current value
+		        var currentVal = parseInt($('input[name='+fieldName+']').val());
+		        // If it isn't undefined or its greater than 0
+		        if (!isNaN(currentVal) && currentVal > 0) {
+		            // Decrement one
+		            $('input[name='+fieldName+']').val(currentVal - 1);
+		        } else {
+		            // Otherwise put a 0 there
+		            $('input[name='+fieldName+']').val(0);
+		        }
+		        console.log(currentVal);
+		    });
+		    
+		    /*
+function submit(){
+		    	var qty = "qty";
+		    	for (i=1; i<13;i++){
+			    	qty += (i.toString());
+			    	var food = document.getElementById("food"+(i.toString()));
+			    	var price = document.getElementById("price"+(i.toString()));
+			    	var val = document.getElementsByClassName("qty").value;
+			    	if (val > 0){
+				    	sessionStorage.setItem(qty, val.toString());
+				    	sessionStorage.setItem("food"+(i.toString()),food);
+				    	sessionStorage.setItem("price"+(i.toString()),price);
+			    	} 
+		    	}
+		    	console.log(sessionStorage.food1);
+		    }
+*/
+		});
+
+		
+	</script>
+	
+	
+</body>
+
+</html>
